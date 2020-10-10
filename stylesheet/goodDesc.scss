@@ -1,0 +1,367 @@
+@charset "utf-8";
+.title{
+    height: 22px;
+    line-height: 22px;
+    padding: 22px 0 17px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 40px;
+}
+.you{
+    margin: 0 5px;
+}
+.shoeSort{
+    position: relative;
+    background: #fff;
+    border: 1px solid #ccc;
+
+}
+.titbar{
+    position: relative;
+
+}
+.titbar>a{
+    padding: 0 5px;
+    margin-right: 15px;
+    max-width: 90px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
+}
+.v-icon{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #ccc;
+    border-width: 0 0 2px 2px;
+    transform-origin: 30% 70%;
+    transform: rotate(-45deg);
+    transition: all 0.1s linear;
+}
+.shoeSort:hover .v-icon{
+    transform: rotate(135deg);
+}
+.shoeSort:hover .titbarbox{
+    display: block;
+}
+.shoeSort a:hover {
+    color: red;
+}
+.titbarbox{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: -1px;
+    width: 574px;
+    max-height: 90px;
+    padding: 7px 8px;
+    border: 1px solid #aaa;
+    background: #fff;
+    display: none;
+}
+.titbarbox>a{
+    float: left;
+    width: 100px;
+    margin: 0 5px;
+}
+.titdesc{
+    max-width: 90px;
+}
+.titshopname>a{
+    margin-left: 10px;
+    color: #666;
+}
+.titshopname a:hover{
+    text-decoration: underline;
+} 
+.proImgs{
+    width: 402px;
+    height: 488px;
+    position: relative;
+}
+.showImgs{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+}
+.showImgs>img{
+    width: 100%;
+}
+.shadow{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(0,0,0,0.3);
+    // display: none;
+}
+.showDetails{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #eee;
+    top: 0;
+    left: 430px;
+    display: none;
+}
+.detailBox{
+    position: relative;
+    margin-top: 10px;
+}
+.scrollBtn{
+    position: absolute;
+    width: 33px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    border: 1px solid #eee;
+    top: 4px;
+    z-index: 1;
+}
+.scrollBtn>span{
+    font-size: 33px;
+    color: #ddd;
+}
+.scrollleft{
+    left: 0;
+}
+.scrollRight{
+    right: 0;
+}
+.scrollBtn:hover{
+    border-color: #d21c43;
+    color: #d21c43;
+}
+.scrollBtn:hover span{
+    border-color: #d21c43;
+    color: #d21c43;
+}
+.imglistBox{
+    position: absolute;
+    left: 35px;
+    width: 330px;
+    height: 70px;
+    overflow: hidden;
+}
+.imglistUl{
+    position: absolute;
+    width: 1000px;
+    height: 70px;
+    left: 8px;
+    top: 0;
+}
+.imglistUl li{
+    float: left;
+    margin-right: 10px;
+}
+.imglistUl a{
+    display: block;
+    margin: 2px;
+}
+.imglistUl-active{
+    border: 2px solid red;
+}
+.proInfor{
+    width: 658px;
+    margin-left: 30px;
+    color: #333;
+}
+.orig-country{
+    color: #999;
+    position: relative;
+}
+.orig-country>a{
+    color: #999;
+}
+.orig-country>img{
+    width: 24px;
+}
+.orig-country>span{
+    margin: 0 6px;
+}
+.Ptags{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 54px;
+    height: 22px;
+    padding-right: 6px;
+    line-height: 22px;
+    text-align: right;
+    color: #8b71c5;
+    font-weight: 400;
+    background: url(../images/smallbg.png) no-repeat -160px 0 ;
+}
+.product-title{
+    margin: 10px 0 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+}
+.subTit{
+    margin-bottom: 11px;
+    line-height: 20px;
+    font-size: 13px;
+}
+.promotionbar{
+    height: 40px;
+    background:#fff url(https://kaola-haitao.oss.kaolacdn.com/3a9e53ef-158f-4c2a-9f09-c594930ded88T2009032136_660_40.png) no-repeat;
+    line-height: 40px;
+    color: #fff;
+}
+.promotionbar>img{
+    height: 40px;
+    margin-top: -2px;
+    margin-right: 10px;
+}
+.second{
+    padding-right: 10px;
+}
+.generalize{
+    padding: 0 48px 0 10px;
+    color: #666;
+}
+.presell{
+    height: 39px;
+    line-height: 39px;
+    border: 1px dotted #ddd;
+    background-color: #ffe8e8;
+    font-weight: bold;
+}
+.presell>:first-child{
+    color: #e31436;
+}
+.priceWrap{
+    background: #f9f9f9;
+}
+.sell{
+    padding-top: 5px;
+    border-top: 1px dotted #ddd;
+}
+.sell>:nth-child(2){
+    font-size: 26px;
+    color: #e31436;
+    font-weight: bold;
+    margin: 8px 0 8px 0;
+
+}
+.sell>:nth-child(3){
+    font-size: 16px;
+    color: #e31436;
+
+}
+.sell>:nth-child(4){
+    margin-left: 5px;
+    background: #f68587;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    color: #fff;
+    border-radius: 2px;
+}
+.sell>:nth-child(5){
+    font-size: 12px;
+    color: #999;
+    margin-left: 14px;
+    margin-bottom: 8px;
+}
+.stages{
+    margin: 10px 0;
+}
+.stages>:nth-child(2){
+    padding: 1px 4px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 2px;
+    background-image: linear-gradient(90deg,#ffb341 0%,#fa5512 100%);
+    color: #fff;
+}
+.stages>:nth-child(3){
+    margin-left: 6px;
+    font-size: 12px;
+}
+.stages>:nth-child(4){
+    margin-left: 30px;
+    color: red;
+    font-size: 12px;
+}
+.stages>:nth-child(5){
+    color: red;
+
+}
+.blackCard{
+    margin-top: 10px;
+    padding-bottom: 8px;
+
+}
+.blackCard>img{
+    vertical-align: -4px;
+    height: 17px;
+    margin-right: 4px;
+    margin-left: 85px;
+}
+.blackCard>:last-child{
+    color: #4a90e2;
+    margin-left: 10px;
+}
+.shoesize{
+    margin: 10px 0;
+}
+.shoelist>li{
+    float: left;
+    text-align: center;
+    margin-right: 7px;
+    height: 30px;
+}
+.number{
+    margin: 15px 0;
+}
+.numchange{
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.numchange>span{
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    margin: 0 2px;
+}
+.numchange>:nth-child(1){
+   padding: 0 3px;
+}
+.numchange>input{
+    text-align: center;
+    height: 30px;
+    width: 35px;
+    border: 1px solid #ccc;
+    border-width:0 1px 0 1px;
+}
+.buyBtns{
+    margin-top: 20px;
+}
+.buyBtns>a{
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.buyBtn{
+    width: 156px;
+    height: 46px;
+    border: 2px solid #d41c44;
+    color: #d31b44;
+    line-height: 46px;
+}
+.addCar{
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    background: #e31436;
+}
