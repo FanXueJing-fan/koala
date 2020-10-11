@@ -4,23 +4,17 @@ require.config({
         'jquery':'jquery-1.11.3',
         'jquery-cookie':'jquery.cookie',
         'iconfont':'../iconfont/iconfont',
+        "list":"list",
         'index':'index'
     },
     shim:{
         'jquery-cookie':['jquery']
     }
 })
-require(['index'], function(index){
-    index.bannerDate();
-    index.bannerTab();
+require(['list','index'],function(list,index){
+    list.downLoad();
     index.navData();
     index.navTab();
-    index.sportDate();
-    index.sportTabData();
-    index.sportTab();
-    index.brandData();
-    index.hotTabData();
-    index.hotTab();
-    index.hotBrand();
-    index.guess();
+    index. allGoodsTab();
+
 })

@@ -1,0 +1,137 @@
+.glBox{
+    background: #3177a0;
+}
+.glBox-c{
+    width: 1000px;
+    margin: 0 auto;
+    background: rgb(240,240,240);
+}
+.goods-list{
+    padding: 0 7px 0 8px;
+}
+.goodsContainer{
+    float: left;
+    margin-bottom: 8px;
+    height: 320px;
+    position: relative;
+    margin-right: 5px;
+    
+}
+.goods-item{
+    border-radius: 4px;
+
+    padding-bottom: 8px;
+    width: 190px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #333;
+}
+.goodsContainer:hover .goods-item{
+    border: 1px solid #e31436;
+    z-index: 1;
+
+}
+.goods-item:hover .goods-title{
+    max-height: 100px;
+    height: auto;
+    white-space: normal;
+    text-overflow: unset;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-decoration: underline;
+    z-index: 1;
+}
+.goods-img{
+    position: relative;
+}
+.goods-img>a{
+    display: block;
+}
+.goods-img>a>img{
+   width: 190px;
+   height: 190px;
+}
+.goods-img>img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.goods-img>p{
+    position: absolute;
+    height: 18px;
+    line-height: 18px;
+    padding-right: 10px;
+    border-radius:0 3px 3px 0;
+
+}
+.tag-first{
+    left: 0;
+    bottom: 40px;
+    padding-left: 6px;
+    background: linear-gradient(270deg,#ff527d,#ff2b2b);
+    color: #fff;
+}
+.tag-second{
+    bottom: 12px;
+   padding-left: 8px;
+   border: 1px solid #ff1e32;
+   color: #ff1e32;
+   background: #fff;
+   border-width: 1px 1px 1px 0;
+}
+.bottom-part{
+    padding: 7px 12px 0;
+}
+.goods-title{
+    transition: all 0.5s ease-out;
+    max-height: 20px;
+    line-height: 20px;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.price{
+    font-size: 24px;
+    color: rgb(255,30,50);
+}
+.price>span{
+    font-size: 14px;
+    margin-right: 3px;
+}
+.vip{
+    display: flex;
+}
+.price-vip{
+   position: relative;
+    height: 24px;
+    background: linear-gradient(90deg, #feeee2 3%,#edc9a7);
+    border-radius: 4px;
+    padding-right: 4px;
+    padding-left: 61px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    color: #333;
+}
+.price-vip img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.price-vip span{
+    font-size: 14px;
+    margin-top: 3px;
+}
+.addCar{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background:linear-gradient(270deg,#ff3164,#ff0101);
+    font-size: 18px;
+    color: #fff;
+    border-radius: 24px;
+}

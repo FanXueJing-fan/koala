@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/goodDesc.css">
     <link rel="stylesheet" href="./iconfont/iconfont.css">
-    <script src="./iconfont/iconfont.js"></script>
-    <script src="js/require.js" async="true" defer data-main="js/desc"></script>
+    <script src="js/require.js" async="true" defer data-main="js/maindesc"></script>
 </head>
 <body>
     <div id="topNav">
@@ -108,91 +107,93 @@
     </div>
     <div id="header-category">
         <div class="allcenter clr">
-            <div class="sortTitle fl">
-                <span class="iconfont icon-fenlei"></span>
-                所有分类
-            </div>
+           <div class="navFrame fl">
+                <div class="sortTitle fl">
+                    <span class="iconfont icon-fenlei"></span>
+                    所有分类
+                </div>
 
 
-            <ul id = 'sortList' class="clr">
-               <!-- <li class="sortTitle">
-                        <div class="sortList-item">
-                            <span class="iconfont icon-yunhuojia_meirongcaizhuang"></span>
-                            美容彩妆
-                            <span class="xiangyou">></span>
-                        </div>
-                        
-                        <div class="dropSort clr">
-                            <div class="goodsSort fl ">
-                                <div class="goodsList fl">
-                                    <p>
-                                        <a href="javascript:;">宠物主粮</a>
-                                    </p>
-                                    <div>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                    </div>
-                                </div>
-                                <div class="goodsList fl">
-                                    <p>
-                                        <a href="javascript:;">宠物主粮</a>
-                                    </p>
-                                    <div>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                    </div>
-                                </div>
-                                <div class="goodsList fl">
-                                    <p>
-                                        <a href="javascript:;">宠物主粮</a>
-                                    </p>
-                                    <div>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                        <a href="javascript:;">狗粮</a>
-                                        <a href="javascript:;">猫粮</a>
-                                    </div>
-                                </div>
+                <ul id = 'sortList' class="clr" style="display: none;">
+                <!-- <li class="sortTitle">
+                            <div class="sortList-item">
+                                <span class="iconfont icon-yunhuojia_meirongcaizhuang"></span>
+                                美容彩妆
+                                <span class="xiangyou">></span>
                             </div>
-                            <div class="brandBox fr">
-                                <div class="brandList clr">
-                                   <a href="javascript:;" class="fl">
-                                        <img src="images/pic1.jpg" alt="">
+                            
+                            <div class="dropSort clr">
+                                <div class="goodsSort fl ">
+                                    <div class="goodsList fl">
+                                        <p>
+                                            <a href="javascript:;">宠物主粮</a>
+                                        </p>
+                                        <div>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                        </div>
+                                    </div>
+                                    <div class="goodsList fl">
+                                        <p>
+                                            <a href="javascript:;">宠物主粮</a>
+                                        </p>
+                                        <div>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                        </div>
+                                    </div>
+                                    <div class="goodsList fl">
+                                        <p>
+                                            <a href="javascript:;">宠物主粮</a>
+                                        </p>
+                                        <div>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                            <a href="javascript:;">狗粮</a>
+                                            <a href="javascript:;">猫粮</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="brandBox fr">
+                                    <div class="brandList clr">
+                                    <a href="javascript:;" class="fl">
+                                            <img src="images/pic1.jpg" alt="">
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <div class="imgBox fr">
+                                    <a href="javascript:;">
+                                        <img src="images/pet.jpg" alt="">
                                     </a>
-
                                 </div>
                             </div>
-                            <div class="imgBox fr">
-                                <a href="javascript:;">
-                                    <img src="images/pet.jpg" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </li> 
-                     -->
-            </ul>
+                        </li> 
+                        -->
+                </ul>
+           </div>
 
 
             <ul class="funtab fl">
@@ -208,11 +209,11 @@
     </div>
     <div class="main ">
         <div class="allcenter">
-            <div class="title">
+            <!-- <div class="title">
                 <span class="fl">运动用品</span>
                 <span class="fl you"> > </span>
                 <div class="shoeSort fl">
-                    <div class="titbar" style="z-index: 1;">
+                    <div class="titbar" >
                         <a href="javascript:;">运动鞋</a>
                         <span class="v-icon"></span>
                     </div>
@@ -249,15 +250,11 @@
                 </div>
                 <span class="fl you"> > </span>
                 <div class="ellipsis titdesc fl">【双十促销】Adidas阿迪达斯Superstar经典款贝壳头男女运动板鞋小白鞋钻闪F33889 金标C77124/C77154升级版FU7712/EG4958</div>
-                <div class="titshopname fr">
-                    <a href="javascript:;">hahamall海外专营店</a>
-                    <a href="javascript:;">进店看看 ></a>
-                </div>
             </div>
             <div class="product clr">
                 <div class="proImgs fl">
                     <div class="showImgs">
-                        <!-- <img src="https://kaola-pop.oss.kaolacdn.com/294ececd-1c90-4565-bef3-ab5f945623c0?x-oss-process=image/resize,w_800/quality,q_85" alt=""> -->
+                        <img src="https://kaola-pop.oss.kaolacdn.com/294ececd-1c90-4565-bef3-ab5f945623c0?x-oss-process=image/resize,w_800/quality,q_85" alt="">
                         <div class="shadow"></div>
                     </div>
                     <div class="showDetails"></div>
@@ -301,9 +298,6 @@
                     <dt class="product-title">
                         ${goodsMsg[i].title}
                     </dt>
-                    <dt class="subTit">
-                        ${goodsMsg[i].subtitle}
-                    </dt>
                     <dd class="promotionbar">
                         <img src="images/1010.png" alt="">
                         <span>￥379${goodsMsg[i].bargain}</span>
@@ -339,12 +333,12 @@
                     <dd class="shoesize clr">
                         <span class="generalize fl">尺码</span>
                         <ul class="fl shoelist">
-                            <li>36</li>
-                            <li>37</li>
-                            <li>38</li>
-                            <li>39</li>
-                            <li>40</li>
-                            <li>41</li>
+                            <li class="shoelist-active">36</li>
+                            <li class="shoelist-item">37</li>
+                            <li class="shoelist-item">38</li>
+                            <li class="shoelist-item">39</li>
+                            <li class="shoelist-item">40</li>
+                            <li class="shoelist-item">41</li>
                         </ul>
                     </dd>
                     <dd class="number clr">
@@ -363,7 +357,7 @@
                         加入购物车</a>
                     </dd>
                 </dl>
-            </div>
+            </div> -->
 
         </div>
         

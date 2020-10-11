@@ -410,6 +410,15 @@ define(['jquery'], function($){
             }
         })
     }
+
+    function allGoodsTab(){
+        $('#header-category ').on('mouseenter','.navFrame', function(){
+            $(this).find('#sortList').css('display','block');
+        })
+        $('#header-category ').on('mouseleave','.navFrame', function(){
+            $(this).find('#sortList').css('display','none');
+        })
+    }
     return {
         bannerDate,
         bannerTab,
@@ -422,6 +431,7 @@ define(['jquery'], function($){
         hotTabData,
         hotTab,
         hotBrand,
-        guess
+        guess,
+        allGoodsTab
     }
 })

@@ -71,13 +71,7 @@
 .titdesc{
     max-width: 90px;
 }
-.titshopname>a{
-    margin-left: 10px;
-    color: #666;
-}
-.titshopname a:hover{
-    text-decoration: underline;
-} 
+
 .proImgs{
     width: 402px;
     height: 488px;
@@ -97,6 +91,8 @@
     position: absolute;
     width: 200px;
     height: 200px;
+    top: 0;
+    left: 0;
     background: rgba(0,0,0,0.3);
     // display: none;
 }
@@ -155,6 +151,10 @@
     left: 8px;
     top: 0;
 }
+.imglistUl img{
+    width: 64px;
+    height: 64px;
+}
 .imglistUl li{
     float: left;
     margin-right: 10px;
@@ -203,11 +203,7 @@
     font-size: 18px;
     line-height: 26px;
 }
-.subTit{
-    margin-bottom: 11px;
-    line-height: 20px;
-    font-size: 13px;
-}
+
 .promotionbar{
     height: 40px;
     background:#fff url(https://kaola-haitao.oss.kaolacdn.com/3a9e53ef-158f-4c2a-9f09-c594930ded88T2009032136_660_40.png) no-repeat;
@@ -317,6 +313,14 @@
     text-align: center;
     margin-right: 7px;
     height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+}
+.shoelist-item{
+    border: 1px solid #ccc;
+}
+.shoelist-active{
+    border: 2px solid #d41c44;
 }
 .number{
     margin: 15px 0;

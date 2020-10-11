@@ -462,6 +462,7 @@ a {
 }
 #sortList .dropSort{
     position: absolute;
+    z-index: 10px;
     left: 163px;
     top: 0;
     border: 1px solid red;

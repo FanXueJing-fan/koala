@@ -3,7 +3,7 @@ require.config({
     paths:{
         'jquery':'jquery-1.11.3',
         'jquery-cookie':'jquery.cookie',
-        'iconfont':'../iconfont/iconfont.js',
+        'iconfont':'../iconfont/iconfont',
         'index':'index'
     },
     shim:{
