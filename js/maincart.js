@@ -12,5 +12,6 @@ require.config({
 })
 require(['cart'],function(cart){
     cart.downLoad();
+    cart.addCarData();
 
 })

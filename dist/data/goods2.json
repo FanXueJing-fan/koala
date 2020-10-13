@@ -4,7 +4,7 @@
         "desc":"根据你的购物车商品推荐",
         "goods":
         [{
-        "id":1001,
+        "product_id":1001,
         "title":"PUMA彪马 Smash v2 L 男女鞋 情侣复古低帮运动鞋休闲户外跑步鞋百搭板鞋小白鞋 365215-01 359622-05",
         "country":"德国",
         "brand":"PUMA 彪马",
@@ -18,7 +18,7 @@
         "https://kaola-pop.oss.kaolacdn.com/990cfd33-7187-4ea9-83b0-a6306624e433?x-oss-process=image/resize,w_800/quality,q_85"]
         },
         {
-        "id":1002,
+        "product_id":1002,
         "title":"【贝嫂同款】Adidas 阿迪达斯 STAN SMITH 三叶草男女运动鞋蓝尾 CQ2206",
         "country":"德国",
         "brand":" adidas 阿迪达斯",
@@ -32,7 +32,7 @@
         "https://kaola-haitao.oss.kaolacdn.com/16ad93cfb124432381e38470a766965b1540968774738jnwt0sa310926.jpg?x-oss-process=image/resize,w_800/quality,q_85"]
         },
         {
-        "id":1003,
+        "product_id":1003,
         "title":"Adidas阿迪达斯女鞋 三叶草 SAMBAROSE W 厚底板鞋松糕鞋运动休闲鞋",
         "country":"德国",
         "brand":" adidas 阿迪达斯",
@@ -46,7 +46,7 @@
         "https://kaola-pop.oss.kaolacdn.com/6c3e79e5-462b-4574-9afa-d1b051e3c4b4?x-oss-process=image/resize,w_800/quality,q_85"]
         },
         {
-        "id":1004,
+        "product_id":1004,
         "title":"Adidas阿迪达斯女鞋 三叶草 SUPERSTAR W 20新款果冻底贝壳头板鞋小白鞋运动休闲鞋",
         "country":"德国",
         "brand":" adidas 阿迪达斯",
@@ -60,7 +60,7 @@
         "https://kaola-pop.oss.kaolacdn.com/e4f548af2975486b874dcb92139aa855_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85"]
         },
         {
-        "id":1005,
+        "product_id":1005,
         "title":"Adidas阿迪达斯女鞋 三叶草 SUPERSTAR 80S W 情人节款爱心拼接小白鞋贝壳头轻便运动休闲鞋",
         "country":"德国",
         "brand":" adidas 阿迪达斯",
@@ -79,12 +79,78 @@
     {
         "area":"猜你喜欢",
         "desc":"根据你的浏览记录推荐的商品",
-        "goods":[]
-    },
-    {
-        "area":"大家都在买",
-        "desc":"全网最热门的商品推荐",
-        "goods":[]
+        "goods":
+        [{
+            "product_id":1006,
+            "title":"Nike/耐克女鞋新款时尚运动复古高帮舒适透气板鞋休闲鞋 AV9376-001",
+            "country":"美国",
+            "brand":"NIKE 耐克",
+            "flag":"http://kaola-haitao.oss.kaolacdn.com/1077833fa2854dcb97502084f24f449d1419659976324i46kw8bh10001.png?x-oss-process=image/resize,w_48/quality,q_85",
+            "price":"529",
+            "vip":"499",
+            "imgs":["https://kaola-pop.oss.kaolacdn.com/e484fb8246d94581a023ffc66e60650f_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+            "https://kaola-pop.oss.kaolacdn.com/e1e47c20bb28446b9c9918075181befd_0_0.null?x-oss-process=image/resize,w_800/quality,q_85",
+            "https://kaola-pop.oss.kaolacdn.com/9e23b8b1fad544b188904d48ca8fe727_0_0.null?x-oss-process=image/resize,w_800/quality,q_85",
+            "https://kaola-pop.oss.kaolacdn.com/79a8fdfd08d34b53a810ae3dd1f7ccb3_0_0.null?x-oss-process=image/resize,w_800/quality,q_85",
+            "https://kaola-pop.oss.kaolacdn.com/67b678dbf74a4b02bfc73f70c5172c89_0_0.null?x-oss-process=image/resize,w_800/quality,q_85"]
+            },
+            {
+                "product_id":1007,
+                "title":"Nike/耐克女鞋2020秋季新款CORTEZ运动鞋耐磨防滑复古跑步休闲鞋板鞋807471",
+                "country":"美国",
+                "brand":"NIKE 耐克",
+                "flag":"http://kaola-haitao.oss.kaolacdn.com/1077833fa2854dcb97502084f24f449d1419659976324i46kw8bh10001.png?x-oss-process=image/resize,w_48/quality,q_85",
+                "price":"579",
+                "vip":"559",
+                "imgs":["https://kaola-pop.oss.kaolacdn.com/e15900eb925a47fb8bc68ad5a3e1e869_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                "https://kaola-pop.oss.kaolacdn.com/8710f208499b4718a79cff43acc28452_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                "https://kaola-pop.oss.kaolacdn.com/c07c37c8ca194859a65099ce931099cd_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                "https://kaola-pop.oss.kaolacdn.com/b5174b8bd59e4075b22c9f9306e32f7c_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                "https://kaola-pop.oss.kaolacdn.com/cba1c541fd8349cc85524874dca9da6a_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85"]
+                },
+                {
+                    "product_id":1008,
+                    "title":"Nike耐克男鞋2020秋冬季新品BLAZER LOW 开拓者大勾滑板鞋休闲鞋CI6377-101",
+                    "country":"美国",
+                    "brand":"NIKE 耐克",
+                    "flag":"http://kaola-haitao.oss.kaolacdn.com/1077833fa2854dcb97502084f24f449d1419659976324i46kw8bh10001.png?x-oss-process=image/resize,w_48/quality,q_85",
+                    "price":"519",
+                    "vip":"499",
+                    "imgs":["https://kaola-pop.oss.kaolacdn.com/2494902e1a0e4f5b961fb6cecc189346_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                    "https://kaola-pop.oss.kaolacdn.com/93f5841d87344ee9a4b15653dd63fff4_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                    "https://kaola-pop.oss.kaolacdn.com/1d841165046142c595fbf43b7773493b_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                    "https://kaola-pop.oss.kaolacdn.com/c6485f666b58410c8ec85fbaad1e9ba7_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                    "https://kaola-pop.oss.kaolacdn.com/24ce4e135e394e1abc0a702aafd73d39_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85"]
+                    },
+                    {
+                        "product_id":1009,
+                        "title":"【限量款】耐克Nike Air Jordan 1 AJ1 白黄蓝 糖果鸳鸯 篮球鞋 554725-128",
+                        "country":"美国",
+                        "brand":"NIKE 耐克",
+                        "flag":"http://kaola-haitao.oss.kaolacdn.com/1077833fa2854dcb97502084f24f449d1419659976324i46kw8bh10001.png?x-oss-process=image/resize,w_48/quality,q_85",
+                        "price":"519",
+                        "vip":"499",
+                        "imgs":["https://kaola-pop.oss.kaolacdn.com/e8f81e323d474163b056dea60f4254a1_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                        "https://kaola-pop.oss.kaolacdn.com/f596ba528f0a446b9d86539f4c5bce86_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                        "https://kaola-pop.oss.kaolacdn.com/e18cc9faff9f43c3bd65feca16aa5779_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                        "https://kaola-pop.oss.kaolacdn.com/dc5e611ff99c407b81abb17b94a6fed1_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                        "https://kaola-pop.oss.kaolacdn.com/c580d345f56740b6b584f089ccd25e3d_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85"]
+                        },
+                        {
+                            "product_id":1010,
+                            "title":"【2020新品】NIKE耐克AIR FORCE 1 AN20 BG女鞋青年款AF1黑白钩小权志龙空军一号板鞋 CT7724-100",
+                            "country":"美国",
+                            "brand":"NIKE 耐克",
+                            "flag":"http://kaola-haitao.oss.kaolacdn.com/1077833fa2854dcb97502084f24f449d1419659976324i46kw8bh10001.png?x-oss-process=image/resize,w_48/quality,q_85",
+                            "price":"559",
+                            "vip":"499",
+                            "imgs":["https://kaola-pop.oss.kaolacdn.com/a25f3480add8479dab03a59364835532_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                            "https://kaola-pop.oss.kaolacdn.com/e86301f3954141239d553b107f89c53e_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                            "https://kaola-pop.oss.kaolacdn.com/9b158bf4f31f43aa9082b8c0c730f56a_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                            "https://kaola-pop.oss.kaolacdn.com/58ddeabcc3c64092b4fa2b4fd3a36e68_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+                            "https://kaola-pop.oss.kaolacdn.com/f14fa26453f743a59cca57fbb43787a6_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85"]
+                            }
+        ]
     }
 
 ]
