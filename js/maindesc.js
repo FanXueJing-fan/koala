@@ -12,8 +12,9 @@ require.config({
     }
 })
 require(['desc','index'],function(desc,index){
-    desc.download();
-    desc.imgMove();
+    desc.download1();
+    desc.download2();
+    // desc.imgTab();
 
     index.navData();
     index.navTab();

@@ -91,10 +91,14 @@
     position: absolute;
     width: 200px;
     height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    font-size: 50px;
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.3);
-    // display: none;
+    display: none;
 }
 .showDetails{
     position: absolute;
@@ -104,6 +108,13 @@
     top: 0;
     left: 430px;
     display: none;
+    overflow: hidden;
+    z-index: 10;
+}
+.showDetails>img{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .detailBox{
     position: relative;
@@ -154,6 +165,7 @@
 .imglistUl img{
     width: 64px;
     height: 64px;
+    border: 2px solid #ccc;
 }
 .imglistUl li{
     float: left;
@@ -163,9 +175,7 @@
     display: block;
     margin: 2px;
 }
-.imglistUl-active{
-    border: 2px solid red;
-}
+
 .proInfor{
     width: 658px;
     margin-left: 30px;

@@ -9,7 +9,7 @@ define(['jquery'], function($){
                     $(`<div class="goodsContainer">
                     <div class="goods-item">
                         <div class="goods-img">
-                            <a href="goodDesc.html?id=${arr[i].id}">
+                            <a href="goodDesc.html?id=${arr[i].id}" target="_blank">
                                 <img src="${arr[i].imgs[0]}" alt="">
                             </a>
                             <img src="images/p1010.png" alt="">
@@ -18,7 +18,7 @@ define(['jquery'], function($){
                         </div>
                         <div class="bottom-part">
                             <h5 class="goods-title">
-                                <a href="goodDesc.html?id=${arr[i].id}">
+                                <a href="goodDesc.html?id=${arr[i].id}" target="_blank">
                                 ${arr[i].title}
                                 </a>
                             </h5>
@@ -31,7 +31,7 @@ define(['jquery'], function($){
                                 <span>￥</span>${arr[i].vip}
                             </div>
                             </div>
-                            <a class="addCar" href="goodDesc.html?id=${arr[i].id}">立即购买</a>
+                            <a class="addCar" href="goodDesc.html?id=${arr[i].id}" target="_blank">立即购买</a>
                         </div>
                     </div>
                 </div>`).appendTo('#box .goods-list');

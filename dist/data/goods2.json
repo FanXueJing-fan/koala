@@ -1,0 +1,90 @@
+[
+    {
+        "area":"最佳搭配",
+        "desc":"根据你的购物车商品推荐",
+        "goods":
+        [{
+        "id":1001,
+        "title":"PUMA彪马 Smash v2 L 男女鞋 情侣复古低帮运动鞋休闲户外跑步鞋百搭板鞋小白鞋 365215-01 359622-05",
+        "country":"德国",
+        "brand":"PUMA 彪马",
+        "flag":"http://kaola-haitao.oss.kaolacdn.com/30a0bc3dd4e84c5a9d585257cd4447ae1419662492273i46me5ps10006.png?x-oss-process=image/resize,w_48/quality,q_85",
+        "price":"269",
+        "vip":"249",
+        "imgs":["https://kaola-pop.oss.kaolacdn.com/03dd8618beb34fd980762e76ac63fe7c_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/9567d0d9-6b35-44aa-81b1-2d59a71204c5?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/021ed220-0461-480d-b2d8-0dac739cc682?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/eb008f5b8cd54f49ae93eb56f1327d16_0_0.null?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/990cfd33-7187-4ea9-83b0-a6306624e433?x-oss-process=image/resize,w_800/quality,q_85"]
+        },
+        {
+        "id":1002,
+        "title":"【贝嫂同款】Adidas 阿迪达斯 STAN SMITH 三叶草男女运动鞋蓝尾 CQ2206",
+        "country":"德国",
+        "brand":" adidas 阿迪达斯",
+        "flag":"http://kaola-haitao.oss.kaolacdn.com/30a0bc3dd4e84c5a9d585257cd4447ae1419662492273i46me5ps10006.png?x-oss-process=image/resize,w_48/quality,q_85",
+        "price":"359",
+        "vip":"339",
+        "imgs":["https://kaola-haitao.oss.kaolacdn.com/962a66da14514d17b21cb35a6a1ee5271542115066575jofrhsq513669.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-haitao.oss.kaolacdn.com/55e20076c91c4de485a3b6ae6dbd1cd21520234896561jedwlthy10460.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-haitao.oss.kaolacdn.com/c0b1e8caff0647fa8f11aef98ce8691a1520232109015jeduy2m910362.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-haitao.oss.kaolacdn.com/8e1764e987384c6fb2abb9eb91ba5a2c1520232108601jeduy2ap10361.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-haitao.oss.kaolacdn.com/16ad93cfb124432381e38470a766965b1540968774738jnwt0sa310926.jpg?x-oss-process=image/resize,w_800/quality,q_85"]
+        },
+        {
+        "id":1003,
+        "title":"Adidas阿迪达斯女鞋 三叶草 SAMBAROSE W 厚底板鞋松糕鞋运动休闲鞋",
+        "country":"德国",
+        "brand":" adidas 阿迪达斯",
+        "flag":"http://kaola-haitao.oss.kaolacdn.com/30a0bc3dd4e84c5a9d585257cd4447ae1419662492273i46me5ps10006.png?x-oss-process=image/resize,w_48/quality,q_85",
+        "price":"559",
+        "vip":"539",
+        "imgs":["https://kaola-pop.oss.kaolacdn.com/1853bdea-8a61-4f18-aa54-1b2f80a61339?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/716ff35a-1b51-4cc8-8949-c0454ab53156?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/bb30486b-cfc0-4153-91c5-f4f27c600ac2?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/27384c8e-6576-46a3-8f7c-18e444acf173?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/6c3e79e5-462b-4574-9afa-d1b051e3c4b4?x-oss-process=image/resize,w_800/quality,q_85"]
+        },
+        {
+        "id":1004,
+        "title":"Adidas阿迪达斯女鞋 三叶草 SUPERSTAR W 20新款果冻底贝壳头板鞋小白鞋运动休闲鞋",
+        "country":"德国",
+        "brand":" adidas 阿迪达斯",
+        "flag":"http://kaola-haitao.oss.kaolacdn.com/30a0bc3dd4e84c5a9d585257cd4447ae1419662492273i46me5ps10006.png?x-oss-process=image/resize,w_48/quality,q_85",
+        "price":"579",
+        "vip":"559",
+        "imgs":["https://kaola-pop.oss.kaolacdn.com/0fac0aa29cd14e93b1dbf2e84ade86ea_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/eb05186401a049beadc7ecbb936df0cf_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/3e498edfce4c4ccd9fe39801d6a456e5_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/f7d8d27b428245189e7ceabe6251500b_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/e4f548af2975486b874dcb92139aa855_800_800.jpg?x-oss-process=image/resize,w_800/quality,q_85"]
+        },
+        {
+        "id":1005,
+        "title":"Adidas阿迪达斯女鞋 三叶草 SUPERSTAR 80S W 情人节款爱心拼接小白鞋贝壳头轻便运动休闲鞋",
+        "country":"德国",
+        "brand":" adidas 阿迪达斯",
+        "flag":"http://kaola-haitao.oss.kaolacdn.com/30a0bc3dd4e84c5a9d585257cd4447ae1419662492273i46me5ps10006.png?x-oss-process=image/resize,w_48/quality,q_85",
+        "price":"559",
+        "vip":"529",
+        "imgs":["https://kaola-pop.oss.kaolacdn.com/592a9000-2122-4aa8-b079-49d213d907b4?x-oss-process=image/resize,w_800/quality,q_85",
+        "https://kaola-pop.oss.kaolacdn.com/530dc891-de52-42bd-a0ce-430b90a7d333?x-oss-process=image/resize,w_800/quality,q_85"]
+        }
+
+
+
+        ]
+    
+    },
+    {
+        "area":"猜你喜欢",
+        "desc":"根据你的浏览记录推荐的商品",
+        "goods":[]
+    },
+    {
+        "area":"大家都在买",
+        "desc":"全网最热门的商品推荐",
+        "goods":[]
+    }
+
+]
