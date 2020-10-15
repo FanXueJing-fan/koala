@@ -5,7 +5,8 @@ require.config({
         'jquery-cookie':'jquery.cookie',
         'iconfont':'../iconfont/iconfont',
         "desc":"desc",
-        'index':'index'
+        'index':'index',
+        'cart':'cart'
     },
     shim:{
         'jquery-cookie':['jquery']

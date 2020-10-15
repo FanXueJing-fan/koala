@@ -13,5 +13,8 @@ require.config({
 require(['cart'],function(cart){
     cart.downLoad();
     cart.addCarData();
+    cart.changeCar();
+    // cart.checkFunc();
+    // cart.isCheckedAll();
 
 })

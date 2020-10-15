@@ -36,11 +36,14 @@
 }
 .cartContent input{
     margin: 0 10px 0 12px;
-
     appearance: none;
     width: 17px;
     height: 18px;
     background: url(../images/selectAll.png) no-repeat 0 -24px;
+}
+.cartContent .checked{
+    background: url(../images/selectAll.png) no-repeat 0 0;
+
 }
 .cartHead{
     position: relative;
@@ -50,6 +53,12 @@
     line-height: 34px;
 }
 .selectAll>input{
+    vertical-align: -2px;
+}
+.itemCart input{
+    margin-top: 31px;
+ }
+ .allOpera>input{
     vertical-align: -2px;
 }
 .cartHead>div{
@@ -84,9 +93,7 @@
     float: left;
     padding: 0 10px;
 }
-.itemCart input{
-   margin-top: 31px;
-}
+
 .itemCart>:nth-child(1){
     padding-right: 0;
     width: 37px;
@@ -171,9 +178,11 @@
     margin: 0 auto;
     text-align: center;
     border: 1px solid #eaeaea;
+    cursor: pointer;
 }
 .numbox>span{
     width: 20px;
+    float: left;
 }
 .numChange{
     width: 45px;
@@ -192,9 +201,7 @@
     background: #f8f8f8;
     line-height: 42px;
 }
-.allOpera>input{
-    vertical-align: -2px;
-}
+
 .allOpera>span{
     margin: 0 8px 0 3px;
 }

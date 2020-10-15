@@ -1,4 +1,4 @@
-define(['jquery','jquery-cookie'],function($){
+define(['jquery','jquery-cookie','cart'],function($,cart){
 
     function download1(){
         $.ajax({
@@ -139,7 +139,7 @@ define(['jquery','jquery-cookie'],function($){
                         </dd>
                         <dd class="buyBtns clr">
                             <a href="javascript:;" class="buyBtn">立即购买</a>
-                            <a href="goodCart.html" target="_blank" class="addCar" id = "${arr[i].id}">
+                            <a href="#" target="_blank" class="addCar" id = "${arr[i].id}">
                                 <span class="iconfont icon-icon_shoppingcart"></span>
                             加入购物车</a>
                         </dd>
@@ -156,6 +156,8 @@ define(['jquery','jquery-cookie'],function($){
                         imgTab();
                         magnify();
                         addCar();
+                        
+                       
                      break;
                    }
                 }
@@ -309,7 +311,7 @@ define(['jquery','jquery-cookie'],function($){
                                 </dd>
                                 <dd class="buyBtns clr">
                                     <a href="javascript:;" class="buyBtn">立即购买</a>
-                                    <a href="goodCart.html" target="_blank" class="addCar" id = "${goodsArr[j].product_id}">
+                                    <a href="#" target="_blank" class="addCar" id = "${goodsArr[j].product_id}">
                                         <span class="iconfont icon-icon_shoppingcart"></span>
                                     加入购物车</a>
                                 </dd>
@@ -384,7 +386,7 @@ define(['jquery','jquery-cookie'],function($){
             var first = $.cookie('goods') == null ? true : false;
             if(first){
                 var arr =[{id:id,num:1}];
-                $.cookie('goods',JSON.stringify(arr),{expire:7});
+                $.cookie('goods',JSON.stringify(arr),{expires:7});
             }else{
                 var cookieArr = JSON.parse($.cookie('goods'));
                 var same = false;
@@ -398,10 +400,13 @@ define(['jquery','jquery-cookie'],function($){
                 if(!same){
                     cookieArr.push({id:id,num:1})
                 }
-                $.cookie('goods',JSON.stringify(cookieArr),{expire:7});
+                $.cookie('goods',JSON.stringify(cookieArr),{expires:7});
             }
+            
             alert($.cookie('goods'));
+           
             return false;
+           
         })
     }
 
@@ -422,7 +427,7 @@ define(['jquery','jquery-cookie'],function($){
     }
     return{
         download1,
-        download2
+        download2,
         // imgTab
     }
 })
