@@ -23,4 +23,5 @@ require(['index'], function(index){
     index.hotTab();
     index.hotBrand();
     index.guess();
+    index.fixedFunc();
 })

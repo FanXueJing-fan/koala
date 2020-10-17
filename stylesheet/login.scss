@@ -17,7 +17,6 @@
     top: 110px;
     right: 40px;
     width: 350px;
-    height: 335px;
     background: #fff;
     border: 1px solid #ccc;
 }
@@ -25,19 +24,25 @@
     height: 64px;
     line-height: 64px;
     text-align: center;
-    font-size: 20px;
 }
 .login-header>a{
     display: block;
     float: left;
     color: lightblue;
+    width: 30%;
 }
 .login-header>:nth-child(1){
-    margin-left: 90px;
+    margin-left: 50px;
+    font-size: 20px;
 }
 .login-header>:nth-child(2){
-    margin-left: 80px;
+    margin-left: 20px;
+    font-size: 16px;
+
+
 }
+
+
 .login-content{
     padding: 0 40px;
     color: #d5d5d5;
@@ -63,20 +68,39 @@
     left: 10px;
 }
 .accTipItem,.pswTipItem{
+    margin-top: 5px;
     padding-left: 10px;
-    // display: none;
+
+}
+.pswTipItem>i{
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+}
+#errorICon{
+    background: url(../images/error.png) no-repeat;
+
+}
+#greenICon{
+    background: url(../images/green.png) no-repeat;
+
 }
 .accTipItem>span,.pswTipItem>span{
     margin-left: 5px;
-    line-height: 25px;
+    
 }
-.btn>input{
+.btn input{
     width: 100%;
     padding-left: 0;
     color: #fff;
     background: red;
     cursor: pointer;
 }
+.login .btn>a{
+    display: block;
+}
+
 .loginMethod{
     margin-top: 10px;
     padding: 10px 40px;
@@ -115,4 +139,11 @@
 }
 .loginMethod>ul>:nth-child(5) a{
     background-position: -162px 0;
+}
+.register{
+    display: none;
+}
+.login-header .loginBtn{
+    color: #d31e46;
+    
 }

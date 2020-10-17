@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <script src="js/require.js" async="true" defer data-main="js/mainlogin"></script>
+
 </head>
 <body>
     <div id="header-content">
@@ -22,70 +24,80 @@
             <div class="login-wrap">
                 <div class="loginBox">
                     <div class="login-header">
-                        <a href="javascript:;">登录</a>
-                        <a href="javascript:;">注册</a>
+                        <a class="loginBtn" href="javascript:;">登录</a>
+                        <a class="registerBtn"href="javascript:;">注册</a>
                     </div>
-                    <!-- <div class="login-content login">
+                     <div class="login-content login">
                         <form action="">
                             <div class="account">
                                 <input type="text" placeholder="请输入账号">
                                 <span class="iconfont icon-shouji"></span>
                                 <div class="accTip">
-                                  <div class="accTipItem">
+                                  <!-- <div class="accTipItem">
                                     <img src="images/error.png" alt="">
                                     <span>账号不能为空</span>    
-                                  </div>
+                                  </div> -->
                                 </div>
                             </div>
                             <div class="password">
                                 <input type="password" placeholder="请输入密码">
                                 <span class="iconfont icon-aixin"></span>
-                                <div class="pswTip">
-                                    <div class="pswTipItem">
-                                        <img src="images/info.png" alt="">
-                                        <span>账号不能为空</span>    
-                                      </div>
-                                      <div class="pswTipItem">
-                                        <img src="images/info.png" alt="">
-                                        <span>账号不能为空</span>    
-                                      </div>
-                                </div>
+                                
+                                    <div class="pswTip">
+                                        <div class="pswTipItem">
+                                            <i></i>
+                                            <span></span>    
+                                          </div>
+                                    </div>
+                                
 
                             </div>
                             <div class="btn">
-                                <input type="submit" value="登录">
+                                <a href="javascript:;">
+                                    <input type="button" value="登录">
+                                </a>
                             </div>
                         </form>
-                    </div> -->
+                    </div> 
                     <div class="login-content register">
                         <form action="">
                             <div class="account">
                                 <input type="text" placeholder="请输入账号">
                                 <span class="iconfont icon-shouji"></span>
                                 <div class="accTip">
-                                  <div class="accTipItem">
+                                  <!-- <div class="accTipItem">
                                     <img src="images/error.png" alt="">
                                     <span>账号不能为空</span>    
-                                  </div>
+                                  </div> -->
                                 </div>
                             </div>
                             <div class="password">
                                 <input type="password" placeholder="请输入密码">
                                 <span class="iconfont icon-aixin"></span>
                                 <div class="pswTip">
-                                    <div class="pswTipItem">
+                                    <!-- <div class="pswTipItem">
                                         <img src="images/info.png" alt="">
                                         <span>账号不能为空</span>    
                                       </div>
                                       <div class="pswTipItem">
                                         <img src="images/info.png" alt="">
                                         <span>账号不能为空</span>    
-                                      </div>
+                                      </div> -->
                                 </div>
 
                             </div>
+                            <div class="password repaw">
+                                <input type="password" placeholder="二次确认输入密码">
+                                <span class="iconfont icon-aixin"></span>
+                                <div class="pswTip">
+                                    <div class="pswTipItem">
+                                        <i></i>
+                                        <span>注册成功</span>    
+                                      </div>
+                                </div>
+                            </div>
                             <div class="btn">
-                                <input type="submit" value="注册">
+                                <input type="button" value="注册">
                             </div>
                         </form>
                     </div>

@@ -419,6 +419,23 @@ define(['jquery'], function($){
             $(this).find('#sortList').css('display','none');
         })
     }
+    function fixedFunc(){
+        $(window).scroll(function(){
+            var t = $(document).scrollTop();
+            if(t > 30){
+                $('#topSearch').show();
+            }else{
+                $('#topSearch').hide();
+            }
+            var asidetop = $(document).scrollTop();
+            if(asidetop > 680){
+                $('#asideLeft,#asideRight').css({"position":"fixed","top":"66px"})
+            }else{
+                $('#asideLeft,#asideRight').css({"position":"absolute","top":"525px"})
+
+            }
+        })
+    }
     return {
         bannerDate,
         bannerTab,
@@ -432,6 +449,7 @@ define(['jquery'], function($){
         hotTab,
         hotBrand,
         guess,
-        allGoodsTab
+        allGoodsTab,
+        fixedFunc
     }
 })

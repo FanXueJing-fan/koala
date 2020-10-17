@@ -14,6 +14,7 @@
 .bannerImgs {
     position: absolute;
     left: calc(50% - 960px);
+    // z-index: -1;
 }
 .bannerPoint{
     position: absolute;
@@ -663,6 +664,7 @@
     border-bottom: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     display: none;
+    z-index: 10;
 }
 .topLogo>a{
     display: block;
